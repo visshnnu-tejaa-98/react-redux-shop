@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.nav-brand {
+	font-weight: 600;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-size {
+	max-width: 22rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-size {
+	max-width: 10rem;
+	height: 15rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.p-5 {
+	padding: 5%;
 }
-
-.App-link {
-  color: #61dafb;
+.m-5 {
+	margin: 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mt-5 {
+	margin-top: 5%;
+}
+.price strong {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.latest-products-img-size {
+	width: 50px;
+}
+.main-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-heading p {
+	font-size: 2rem;
+	margin-left: 10px;
+	color: #2962ff;
+	font-weight: 600;
+}
+.card-description {
+	min-height: 150px;
+}
+.single-product-image {
+	width: 20rem;
+	height: 30rem;
+}
+.label {
+	background: #d81b60;
+	color: white;
+	padding: 1% 2%;
+	display: inline;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+.single-product-price {
+	font-size: 2rem;
 }
